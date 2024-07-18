@@ -5,16 +5,15 @@ The objective of this project is to build a Decision Tree classifier to predict 
 
 ### Steps Involved:
 1. Data Collection:
-
 The dataset iris.csv contains the following columns: Id, SepalLengthCm, SepalWidthCm, PetalLengthCm, PetalWidthCm, Species.
 The dataset includes 150 samples of iris flowers, with 50 samples for each species.
-2. Data Preprocessing:
 
+2. Data Preprocessing:
 Load the dataset using the pandas library.
 Select the relevant features (SepalLengthCm, SepalWidthCm, PetalLengthCm, PetalWidthCm) and the target variable (Species).
 Split the dataset into training and testing sets to evaluate the model's performance.
-3. Model Training:
 
+3. Model Training:
 Use the scikit-learn library to create a Decision Tree classifier.
 Train the classifier using the training dataset.
 4. Model Evaluation:
