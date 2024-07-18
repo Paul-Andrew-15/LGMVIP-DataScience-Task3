@@ -16,15 +16,15 @@ Split the dataset into training and testing sets to evaluate the model's perform
 3. Model Training:
 Use the scikit-learn library to create a Decision Tree classifier.
 Train the classifier using the training dataset.
-4. Model Evaluation:
 
+5. Model Evaluation:
 Evaluate the model's performance using the testing dataset.
 Calculate accuracy and other relevant metrics.
-5. Model Visualization:
 
+7. Model Visualization:
 Visualize the trained Decision Tree using the plot_tree function from the scikit-learn library.
 The visualization will display the structure of the Decision Tree, including the decision nodes, feature splits, and class predictions.
-6. Prediction:
 
+6. Prediction:
 Use the trained classifier to make predictions on new data.
 The model should be able to predict the species of an iris flower based on its sepal and petal measurements.
